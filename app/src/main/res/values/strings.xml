@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MAD_New</string>
+    <string name="email">email</string>
+    <string name="register_btn">Register</string>
+    <string name="title1">Sign</string>
+    <string name="text1">Username</string>
+    <string name="text2">Password</string>
+    <string name="link_1">Forgot Password</string>
+    <string name="sign_btn">Sign</string>
+    <string name="login_btn">Sign in</string>
+    <string name="title2">Register</string>
+    <string name="text3">Firstname</string>
+    <string name="text5">Lastname</string>
+    <string name="text6">Email</string>
+    <string name="text7">Password</string>
+    <string name="text8">Re-Enter password</string>
+    <string name="title3">Welcome</string>
+    <string name="des1">Hari Styles bring out the Beauty in you</string>
+    <string name="btn_1">Sign in</string>
+    <string name="btn_2">Sign Up</string>
+</resources>

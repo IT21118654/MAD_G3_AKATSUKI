@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <com.theophrast.ui.widget.SquareImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/s1"
+            app:civ_border_width="2dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Style 1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="price"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/name"/>
+
+<!--        <Button-->
+<!--            android:id="@id/btn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="37dp"-->
+<!--            android:layout_below="@id/price"-->
+<!--            android:layout_marginLeft="2dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:layout_toRightOf="@id/image"-->
+<!--            android:background="@drawable/bg_btn_purple"-->
+<!--            android:src="@drawable/ic_shopping_cart_black"-->
+<!--            android:text="Choose"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/gold" />-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_edit"
+            android:text="Edit"
+            android:layout_marginLeft="300dp"
+            android:textColor="@color/gold"
+            android:background="@drawable/bg_btn_purple"
+
+            android:layout_marginTop="50dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:background="@drawable/bg_btn_purple"
+            android:text="Delete"
+            android:textColor="@color/gold"
+
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tst_style_id"
+    android:visibility="invisible"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/image_uri"/>
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

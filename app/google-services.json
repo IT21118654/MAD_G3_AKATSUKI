@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "592128321367",
+    "firebase_url": "https://stylecitizen123-default-rtdb.firebaseio.com",
+    "project_id": "stylecitizen123",
+    "storage_bucket": "stylecitizen123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592128321367:android:19552be35dce937c384012",
+        "android_client_info": {
+          "package_name": "com.example.mad_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592128321367-idj2sb7b6erume6jpc2fpdtdga3m2mre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhfh0bH9MMETL7UHRCTj-JSLa7rpwismI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592128321367-idj2sb7b6erume6jpc2fpdtdga3m2mre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
